@@ -25,6 +25,8 @@ h1, h2{
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
 }
 
 /* Navigation links */
@@ -68,6 +70,7 @@ h1, h2{
 
 #cover-text, #cover-text h2{
     color: #fff;
+    padding-left: 5px;
 }
 
 #hero-image{
@@ -231,4 +234,17 @@ footer{
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Gallery */
+
+#photos{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img{
+    width: 100%
 }
